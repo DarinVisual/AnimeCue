@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — AnimeCue</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #14141f;
+      --text: #e8e8f0;
+      --text-muted: #8a8aa0;
+      --accent: #6c5ce7;
+      --border: #1e1e2e;
+      --max-width: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lang-links {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .lang-links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    .lang-links a:hover { text-decoration: underline; }
+    .updated {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    p {
+      font-size: 15px;
+      color: var(--text-muted);
+    }
+    a {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Politique de confidentialité</h1>
+      <div class="lang-links">
+        <a href="privacy.html">English</a>
+        <a href="privacy-fr.html">Français</a>
+        <a href="terms.html">Terms of Use (EN)</a>
+        <a href="terms-fr.html">Conditions d'utilisation (FR)</a>
+      </div>
+    </header>
+
+    <p class="updated">Dernière mise à jour : juillet 2026</p>
+
+    <section>
+      <h2>Données stockées localement</h2>
+      <p>AnimeCue stocke l'intégralité de vos données (scènes, sessions, tags, associations personnages) dans une base SQLite locale sur votre appareil. Aucune donnée personnelle n'est collectée, envoyée ou stockée sur un serveur tiers par défaut.</p>
+    </section>
+
+    <section>
+      <h2>API AniList</h2>
+      <p>AnimeCue interroge l'API publique AniList (https://graphql.anilist.co) en lecture seule, sans authentification, pour rechercher des animes et des personnages. Aucune donnée personnelle n'est transmise à AniList. Les requêtes sont anonymes.</p>
+    </section>
+
+    <section>
+      <h2>Achats in-app (RevenueCat)</h2>
+      <p>Si vous souscrivez à un abonnement Premium, les identifiants d'achat et l'état de votre abonnement sont gérés par RevenueCat, Apple (App Store) et Google (Play Store). Ces tiers reçoivent votre identifiant d'achat (généré aléatoirement) pour valider et synchroniser votre abonnement. AnimeCue ne stocke pas d'informations de paiement — celles-ci sont traitées exclusivement par Apple et Google.</p>
+    </section>
+
+    <section>
+      <h2>Aucun compte utilisateur</h2>
+      <p>AnimeCue ne nécessite pas de compte. Il n'y a pas d'inscription, pas d'email, pas de mot de passe. Toutes vos données restent sur votre appareil.</p>
+    </section>
+
+    <section>
+      <h2>Pas de tracking ni publicité</h2>
+      <p>AnimeCue n'utilise aucun SDK d'analytique, aucun tracker, et n'affiche aucune publicité. Votre activité n'est jamais suivie.</p>
+    </section>
+
+    <section>
+      <h2>Suppression des données</h2>
+      <p>Vous pouvez supprimer toutes vos données à tout moment en désinstallant l'application. Aucune donnée résiduelle ne persiste sur un serveur.</p>
+    </section>
+
+    <section>
+      <h2>Conformité RGPD</h2>
+      <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vos données ne quittent jamais votre appareil. Vous exercez un contrôle total en supprimant l'application.</p>
+    </section>
+
+    <footer>
+      AnimeCue — Réalisé par AMV Editor @Darin
+    </footer>
+  </div>
+</body>
+</html>

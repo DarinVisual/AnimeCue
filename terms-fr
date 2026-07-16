@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditions d'utilisation — AnimeCue</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #14141f;
+      --text: #e8e8f0;
+      --text-muted: #8a8aa0;
+      --accent: #6c5ce7;
+      --border: #1e1e2e;
+      --max-width: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lang-links {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .lang-links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    .lang-links a:hover { text-decoration: underline; }
+    .updated {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    p {
+      font-size: 15px;
+      color: var(--text-muted);
+      white-space: pre-wrap;
+    }
+    a {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Conditions d'utilisation</h1>
+      <div class="lang-links">
+        <a href="privacy.html">Privacy Policy (EN)</a>
+        <a href="privacy-fr.html">Politique de confidentialité (FR)</a>
+        <a href="terms.html">English</a>
+        <a href="terms-fr.html">Français</a>
+      </div>
+    </header>
+
+    <p class="updated">Dernière mise à jour : juillet 2026</p>
+
+    <section>
+      <h2>Usage personnel</h2>
+      <p>AnimeCue est un outil de logging personnel pour les fans d'anime. L'application est destinée à un usage privé et non commercial.</p>
+    </section>
+
+    <section>
+      <h2>Données AniList</h2>
+      <p>Les informations sur les animes et personnages (titres, images, descriptions, listes d'épisodes) proviennent de l'API AniList et appartiennent à AniList ainsi qu'aux ayants droit des œuvres. AnimeCue affiche ces données pour votre usage personnel uniquement.</p>
+    </section>
+
+    <section>
+      <h2>Cache local, pas de redistribution</h2>
+      <p>AnimeCue met en cache localement (sur votre appareil) les données AniList pour améliorer l'expérience hors-ligne. L'application ne revend pas, ne republie pas, et ne redistribue pas ces données en dehors de votre usage personnel. Vous ne devez pas extraire, copier en masse, ou redistribuer les données affichées.</p>
+    </section>
+
+    <section>
+      <h2>Achat unique — Définition</h2>
+      <p>L'ensemble des fonctionnalités Premium est proposé sous la forme d'un achat unique, sans renouvellement (« Achat à vie »). Les termes « à vie » et « pour toujours » désignent la durée de vie commerciale de l'application AnimeCue, c'est-à-dire la période pendant laquelle le Développeur assure la maintenance, l'exploitation et la disponibilité de l'application. Ces termes ne désignent ni votre durée de vie, ni celle d'un appareil. Le Développeur ne garantit pas que l'application restera disponible indéfiniment. Vous reconnaissez que l'application pourra être arrêtée, remplacée ou substantiellement modifiée à tout moment conformément à la section « Fin de service » ci-dessous. Aucun abonnement récurrent, aucun renouvellement automatique et aucun frais récurrent ne s'appliquent.</p>
+    </section>
+
+    <section>
+      <h2>Fin de service — Résiliation</h2>
+      <p>Le Développeur se réserve le droit d'arrêter, suspendre ou cesser la maintenance de l'application AnimeCue à tout moment, pour quelque motif que ce soit, y compris mais sans s'y limiter pour des raisons techniques, économiques ou juridiques. En cas d'arrêt définitif, le Développeur s'efforcera raisonnablement d'informer les utilisateurs au moins soixante (60) jours à l'avance par le biais de l'application, de l'App Store, du Google Play Store ou du site web du Développeur. Lors de l'arrêt : (a) l'application pourra être retirée de l'App Store d'Apple et du Google Play Store ; (b) l'application pourra cesser de fonctionner partiellement ou entièrement, y compris la perte d'accès aux fonctionnalités Premium ; (c) aucun remboursement, indemnité ou dommage-intérêt ne sera dû, sauf obligation légale impérative applicable. Le Développeur est une personne physique indépendante et le fonctionnement continu de l'application n'est pas garanti. Vos données stockées localement (scènes, sessions, tags) restent sur votre appareil et ne sont pas affectées par l'arrêt du service. Vous êtes invité à utiliser la fonctionnalité d'export pour sauvegarder régulièrement vos données.</p>
+    </section>
+
+    <section>
+      <h2>Limitation de responsabilité et Remboursements</h2>
+      <p>(a) Remboursements : Tous les achats sont traités et remboursés exclusivement par Apple (App Store) et Google (Play Store) selon leurs politiques de remboursement respectives. Le Développeur ne traite pas les paiements et ne peut émettre de remboursement directement. L'éligibilité au remboursement est déterminée uniquement par Apple et Google. En droit de l'Union européenne, vous pouvez disposer d'un droit de rétractation pour les contenus numériques dans un délai de quatorze (14) jours suivant l'achat ; toutefois, en procédant à l'achat et en accédant aux fonctionnalités Premium, vous consentez expressément à la fourniture immédiate du contenu numérique et reconnaissez renoncer à votre droit de rétractation dans les limites permises par la loi applicable (Article L221-18 et suivants du Code de la consommation ; Article 16 de la Directive 2011/83/UE).
+
+(b) Limitation de responsabilité : L'application est fournie « en l'état » et « telle que disponible », sans garantie d'aucune sorte, expresse ou implicite, y compris de qualité marchande, d'adéquation à un usage particulier, ou de non-contrefaçon. Le Développeur ne garantit pas un fonctionnement ininterrompu ou exempt d'erreurs, ni la disponibilité continue de l'API AniList. Dans la mesure maximale permise par la loi applicable, la responsabilité totale et cumulée du Développeur ne saurait excéder le montant total payé par vous pour l'achat Premium. En aucun cas le Développeur ne sera responsable de dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris la perte de données, la perte de profits, ou l'interruption d'activité.
+
+(c) Droits légaux : Rien dans les présentes Conditions ne porte atteinte aux droits dont vous pouvez bénéficier au titre des dispositions impératives de protection des consommateurs applicables, y compris le Code de la consommation français et la législation européenne de protection des consommateurs.</p>
+    </section>
+
+    <section>
+      <h2>Attribution AniList</h2>
+      <p>AnimeCue est un produit non officiel (« unofficial ») et n'est pas affilié à AniList. Les données d'animes et de personnages sont fournies par AniList (https://anilist.co).</p>
+    </section>
+
+    <footer>
+      AnimeCue — Réalisé par AMV Editor @Darin
+    </footer>
+  </div>
+</body>
+</html>

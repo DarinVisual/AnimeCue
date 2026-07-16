@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — AnimeCue</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #14141f;
+      --text: #e8e8f0;
+      --text-muted: #8a8aa0;
+      --accent: #6c5ce7;
+      --border: #1e1e2e;
+      --max-width: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lang-links {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .lang-links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    .lang-links a:hover { text-decoration: underline; }
+    .updated {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    p {
+      font-size: 15px;
+      color: var(--text-muted);
+    }
+    a {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <div class="lang-links">
+        <a href="privacy.html">English</a>
+        <a href="privacy-fr.html">Français</a>
+        <a href="terms.html">Terms of Use (EN)</a>
+        <a href="terms-fr.html">Conditions d'utilisation (FR)</a>
+      </div>
+    </header>
+
+    <p class="updated">Last updated: July 2026</p>
+
+    <section>
+      <h2>Locally Stored Data</h2>
+      <p>AnimeCue stores all your data (scenes, sessions, tags, character associations) in a local SQLite database on your device. No personal data is collected, sent or stored on a third-party server by default.</p>
+    </section>
+
+    <section>
+      <h2>AniList API</h2>
+      <p>AnimeCue queries the public AniList API (https://graphql.anilist.co) in read-only mode, without authentication, to search for anime and characters. No personal data is transmitted to AniList. Requests are anonymous.</p>
+    </section>
+
+    <section>
+      <h2>In-App Purchases (RevenueCat)</h2>
+      <p>If you subscribe to a Premium subscription, purchase identifiers and your subscription state are managed by RevenueCat, Apple (App Store) and Google (Play Store). These third parties receive your purchase identifier (randomly generated) to validate and sync your subscription. AnimeCue does not store payment information — it is processed exclusively by Apple and Google.</p>
+    </section>
+
+    <section>
+      <h2>No User Account</h2>
+      <p>AnimeCue does not require an account. There is no registration, no email, no password. All your data stays on your device.</p>
+    </section>
+
+    <section>
+      <h2>No Tracking or Ads</h2>
+      <p>AnimeCue uses no analytics SDK, no tracker, and displays no ads. Your activity is never tracked.</p>
+    </section>
+
+    <section>
+      <h2>Data Deletion</h2>
+      <p>You can delete all your data at any time by uninstalling the app. No residual data persists on any server.</p>
+    </section>
+
+    <section>
+      <h2>GDPR Compliance</h2>
+      <p>In accordance with the General Data Protection Regulation (GDPR), your data never leaves your device. You retain full control by uninstalling the application.</p>
+    </section>
+
+    <footer>
+      AnimeCue — Made by AMV Editor @Darin
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — AnimeCue</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #14141f;
+      --text: #e8e8f0;
+      --text-muted: #8a8aa0;
+      --accent: #6c5ce7;
+      --border: #1e1e2e;
+      --max-width: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lang-links {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .lang-links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    .lang-links a:hover { text-decoration: underline; }
+    .updated {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    p {
+      font-size: 15px;
+      color: var(--text-muted);
+      white-space: pre-wrap;
+    }
+    a {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Terms of Use</h1>
+      <div class="lang-links">
+        <a href="privacy.html">Privacy Policy (EN)</a>
+        <a href="privacy-fr.html">Politique de confidentialité (FR)</a>
+        <a href="terms.html">English</a>
+        <a href="terms-fr.html">Français</a>
+      </div>
+    </header>
+
+    <p class="updated">Last updated: July 2026</p>
+
+    <section>
+      <h2>Personal Use</h2>
+      <p>AnimeCue is a personal logging tool for anime fans. The app is intended for private, non-commercial use.</p>
+    </section>
+
+    <section>
+      <h2>AniList Data</h2>
+      <p>Anime and character information (titles, images, descriptions, episode lists) comes from the AniList API and belongs to AniList and the rights holders of the works. AnimeCue displays this data for your personal use only.</p>
+    </section>
+
+    <section>
+      <h2>Local Cache, No Redistribution</h2>
+      <p>AnimeCue caches AniList data locally (on your device) to improve the offline experience. The app does not sell, republish, or redistribute this data outside your personal use. You must not extract, mass-copy, or redistribute the displayed data.</p>
+    </section>
+
+    <section>
+      <h2>One-Time Purchase — Definition</h2>
+      <p>The Premium feature set is offered as a one-time, non-recurring purchase ('Lifetime Purchase'). The terms 'lifetime' and 'forever' refer to the commercial lifespan of the AnimeCue application — that is, the period during which the Developer continues to maintain, operate, and make the application available. They do not refer to your lifetime or the lifetime of any device. The Developer does not guarantee that the application will remain available indefinitely. You acknowledge that the application may be discontinued, replaced, or substantially modified at any time in accordance with the 'End of Service' section below. No recurring subscription, no auto-renewal, and no recurring charges apply.</p>
+    </section>
+
+    <section>
+      <h2>End of Service — Termination</h2>
+      <p>The Developer reserves the right to discontinue, suspend, or cease maintenance of the AnimeCue application at any time, for any reason, including but not limited to technical, economic, or legal reasons. In the event of a permanent discontinuation, the Developer shall use commercially reasonable efforts to provide at least sixty (60) days' prior notice through the application, the App Store, the Google Play Store, or the Developer's website. Upon discontinuation: (a) the application may be removed from the Apple App Store and Google Play Store; (b) the application may cease to function partially or entirely, including loss of access to Premium features; (c) no refunds, compensation, or damages shall be owed, except as required by applicable mandatory law. The Developer is an independent individual and continued operation of the application is not guaranteed. Your locally stored data (scenes, sessions, tags) remains on your device and is not affected by service discontinuation. You are encouraged to use the export feature to back up your data regularly.</p>
+    </section>
+
+    <section>
+      <h2>Limitation of Liability and Refunds</h2>
+      <p>(a) Refunds: All purchases are processed and refunded exclusively through Apple (App Store) and Google (Play Store) under their respective refund policies. The Developer does not process payments and cannot issue refunds directly. Refund eligibility is determined solely by Apple and Google. Under European Union law, you may have a right of withdrawal for digital content within fourteen (14) days of purchase; however, by proceeding with the purchase and accessing the Premium features, you expressly consent to the immediate delivery of the digital content and acknowledge that you waive your right of withdrawal to the extent permitted by applicable law (Article L221-18 et seq. of the French Consumer Code; Article 16 of Directive 2011/83/EU).
+
+(b) Limitation of Liability: The application is provided 'as is' and 'as available', without warranties of any kind, whether express or implied, including merchantability, fitness for a particular purpose, or non-infringement. The Developer does not warrant uninterrupted or error-free operation, or continued availability of the AniList API. To the maximum extent permitted by applicable law, the Developer's total aggregate liability shall not exceed the total amount paid by you for the Premium purchase. In no event shall the Developer be liable for indirect, incidental, special, consequential, or punitive damages, including loss of data, loss of profits, or business interruption.
+
+(c) Statutory Rights: Nothing in these Terms affects any statutory rights you may have under applicable mandatory consumer protection laws, including the French Consumer Code and EU consumer protection legislation.</p>
+    </section>
+
+    <section>
+      <h2>AniList Attribution</h2>
+      <p>AnimeCue is an unofficial product and is not affiliated with AniList. Anime and character data is provided by AniList (https://anilist.co).</p>
+    </section>
+
+    <footer>
+      AnimeCue — Made by AMV Editor @Darin
+    </footer>
+  </div>
+</body>
+</html>
